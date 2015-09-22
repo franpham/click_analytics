@@ -1,0 +1,28 @@
+
+.button {
+  width: 24px;
+  height: 24px;
+  opacity: 1.0;
+  background-color: white;
+  border: 1px black solid;
+  display: inline-block;
+}
+.control {
+  font-size: 1em;
+  width: 96px;
+  height: 48px;
+  margin: 8px;
+  padding: 8px;
+  display: inline-block;
+}
+
+.spacing {
+  margin: 8px;
+  text-align: center;
+}
+
+/* BUG: row is NOT enlarging to its children's size, so require row to have the same height as its children;
+*/
+.row {
+  height: 24px;
+}
