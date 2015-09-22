@@ -21,7 +21,7 @@
   text-align: center;
 }
 
-/* BUG: row is NOT enlarging to its children's size, so require row to have the same height as its children;
+/* BUG: row is not changing to its children size, so require row to have the same height as its children;
 */
 .row {
   height: 24px;
